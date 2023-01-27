@@ -48,7 +48,7 @@
                                                         <color key="backgroundColor" red="0.79539525509999998" green="0.94889229539999997" blue="0.98722749949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdg-9f-MYl">
-                                                        <rect key="frame" x="33.000000000000007" y="117.33333333333339" width="70.666666666666686" height="41.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="136.66666666666666" height="276.33333333333331"/>
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain">
@@ -60,16 +60,22 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oLl-yS-Cc0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="qdg-9f-MYl" firstAttribute="centerX" secondItem="S2B-Yd-FWe" secondAttribute="centerX" id="P2I-4K-o7g"/>
+                                                    <constraint firstAttribute="bottom" secondItem="qdg-9f-MYl" secondAttribute="bottom" id="Pm1-CK-CnE"/>
                                                     <constraint firstAttribute="bottom" secondItem="W2t-37-Ldr" secondAttribute="bottom" id="RA6-Ke-RcK"/>
                                                     <constraint firstItem="W2t-37-Ldr" firstAttribute="leading" secondItem="S2B-Yd-FWe" secondAttribute="leading" id="gFD-qb-SOC"/>
                                                     <constraint firstItem="W2t-37-Ldr" firstAttribute="top" secondItem="S2B-Yd-FWe" secondAttribute="top" id="gez-4p-2aT"/>
                                                     <constraint firstAttribute="trailing" secondItem="W2t-37-Ldr" secondAttribute="trailing" id="k1j-bN-7EF"/>
+                                                    <constraint firstAttribute="trailing" secondItem="qdg-9f-MYl" secondAttribute="trailing" id="pJ6-KV-kHI"/>
                                                     <constraint firstItem="qdg-9f-MYl" firstAttribute="centerY" secondItem="S2B-Yd-FWe" secondAttribute="centerY" id="te6-Y6-rcb"/>
+                                                    <constraint firstItem="qdg-9f-MYl" firstAttribute="top" secondItem="S2B-Yd-FWe" secondAttribute="top" id="zdF-bL-ifj"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIW-Gh-32A" userLabel="Medium Egg View">
@@ -80,7 +86,7 @@
                                                         <color key="backgroundColor" red="0.79539525509999998" green="0.94889229539999997" blue="0.98722749949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erZ-R1-X1D">
-                                                        <rect key="frame" x="11" y="117.33333333333339" width="115" height="41.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="136.66666666666666" height="276.33333333333331"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain">
@@ -93,16 +99,22 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bed-sg-WNF"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="erZ-R1-X1D" firstAttribute="centerY" secondItem="WIW-Gh-32A" secondAttribute="centerY" id="9F0-Fl-UaN"/>
+                                                    <constraint firstItem="erZ-R1-X1D" firstAttribute="top" secondItem="WIW-Gh-32A" secondAttribute="top" id="FQB-hb-qMB"/>
+                                                    <constraint firstItem="erZ-R1-X1D" firstAttribute="leading" secondItem="WIW-Gh-32A" secondAttribute="leading" id="Gfa-5l-QLu"/>
                                                     <constraint firstItem="x1t-zF-3e6" firstAttribute="top" secondItem="WIW-Gh-32A" secondAttribute="top" id="NCM-3v-1b7"/>
                                                     <constraint firstAttribute="bottom" secondItem="x1t-zF-3e6" secondAttribute="bottom" id="T7n-OW-1Vq"/>
                                                     <constraint firstItem="erZ-R1-X1D" firstAttribute="centerX" secondItem="WIW-Gh-32A" secondAttribute="centerX" id="XpO-9q-KfV"/>
                                                     <constraint firstAttribute="trailing" secondItem="x1t-zF-3e6" secondAttribute="trailing" id="hWk-XU-NcY"/>
                                                     <constraint firstItem="x1t-zF-3e6" firstAttribute="leading" secondItem="WIW-Gh-32A" secondAttribute="leading" id="hxM-Ic-pE8"/>
+                                                    <constraint firstAttribute="bottom" secondItem="erZ-R1-X1D" secondAttribute="bottom" id="mBT-ll-EVe"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cVI-X3-60i" userLabel="Hard Egg View">
@@ -113,7 +125,7 @@
                                                         <color key="backgroundColor" red="0.79539525509999998" green="0.94889229539999997" blue="0.98722749949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwY-h3-o5p">
-                                                        <rect key="frame" x="29" y="117.33333333333339" width="79" height="41.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="136.66666666666666" height="276.33333333333331"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain">
@@ -126,13 +138,19 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fxA-Ie-pEI"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="c1t-i6-Kzb" secondAttribute="bottom" id="N9w-Wf-p4g"/>
                                                     <constraint firstItem="UwY-h3-o5p" firstAttribute="centerX" secondItem="cVI-X3-60i" secondAttribute="centerX" id="SV3-5g-bu5"/>
+                                                    <constraint firstItem="UwY-h3-o5p" firstAttribute="top" secondItem="cVI-X3-60i" secondAttribute="top" id="YLB-UE-Rg6"/>
+                                                    <constraint firstItem="UwY-h3-o5p" firstAttribute="leading" secondItem="cVI-X3-60i" secondAttribute="leading" id="hX7-dm-Eve"/>
                                                     <constraint firstItem="c1t-i6-Kzb" firstAttribute="leading" secondItem="cVI-X3-60i" secondAttribute="leading" id="iO2-VE-d66"/>
+                                                    <constraint firstAttribute="bottom" secondItem="UwY-h3-o5p" secondAttribute="bottom" id="lLA-z1-igh"/>
                                                     <constraint firstAttribute="trailing" secondItem="c1t-i6-Kzb" secondAttribute="trailing" id="qay-2s-Jn7"/>
                                                     <constraint firstItem="UwY-h3-o5p" firstAttribute="centerY" secondItem="cVI-X3-60i" secondAttribute="centerY" id="tLS-YZ-ClC"/>
                                                     <constraint firstItem="c1t-i6-Kzb" firstAttribute="top" secondItem="cVI-X3-60i" secondAttribute="top" id="yTo-wI-Gfb"/>
@@ -162,13 +180,10 @@
                                 <constraints>
                                     <constraint firstItem="WqW-LB-x2t" firstAttribute="leading" secondItem="a2Q-5P-xHj" secondAttribute="leading" id="2cm-iH-4d8"/>
                                     <constraint firstItem="aSE-VA-yL4" firstAttribute="top" secondItem="a2Q-5P-xHj" secondAttribute="top" id="6Lr-cB-bQv"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vv4-1s-Lnw" secondAttribute="trailing" id="71E-OQ-aXQ"/>
                                     <constraint firstAttribute="trailing" secondItem="Vv4-1s-Lnw" secondAttribute="trailing" constant="5" id="8lN-Iy-8cZ"/>
                                     <constraint firstAttribute="trailing" secondItem="WqW-LB-x2t" secondAttribute="trailing" id="CnD-wt-3y2"/>
-                                    <constraint firstItem="Vv4-1s-Lnw" firstAttribute="leading" secondItem="a2Q-5P-xHj" secondAttribute="leading" constant="5" id="PAY-qa-Okz"/>
                                     <constraint firstItem="aSE-VA-yL4" firstAttribute="leading" secondItem="a2Q-5P-xHj" secondAttribute="leading" id="TVu-RO-9hY"/>
                                     <constraint firstAttribute="trailing" secondItem="aSE-VA-yL4" secondAttribute="trailing" id="VMl-Lz-kuV"/>
-                                    <constraint firstItem="Vv4-1s-Lnw" firstAttribute="leading" secondItem="a2Q-5P-xHj" secondAttribute="leading" id="oQD-Gx-JFS"/>
                                     <constraint firstAttribute="bottom" secondItem="WqW-LB-x2t" secondAttribute="bottom" id="xm4-8I-e4z"/>
                                 </constraints>
                             </stackView>
@@ -182,6 +197,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a2Q-5P-xHj" secondAttribute="trailing" id="bdy-SF-kod"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="x8r-v0-Cb4" id="EBi-Ng-eYf"/>
+                        <outlet property="titleLabel" destination="qAQ-Vu-CX9" id="3aB-0s-1sS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

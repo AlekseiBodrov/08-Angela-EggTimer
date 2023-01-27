@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		D7CF87232983B4DC00440708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF87222983B4DC00440708 /* AppDelegate.swift */; };
 		D7CF87252983B4DC00440708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF87242983B4DC00440708 /* SceneDelegate.swift */; };
-		D7CF87272983B4DC00440708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF87262983B4DC00440708 /* ViewController.swift */; };
 		D7CF872A2983B4DC00440708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CF87282983B4DC00440708 /* Main.storyboard */; };
 		D7CF872C2983B4DF00440708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CF872B2983B4DF00440708 /* Assets.xcassets */; };
 		D7CF872F2983B4DF00440708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CF872D2983B4DF00440708 /* LaunchScreen.storyboard */; };
 		D7CF873C2983B90800440708 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7CF873B2983B90800440708 /* alarm_sound.mp3 */; };
+		D7CF873E2983C0D300440708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF873D2983C0D300440708 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7CF871F2983B4DC00440708 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CF87222983B4DC00440708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CF87242983B4DC00440708 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7CF87262983B4DC00440708 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7CF87292983B4DC00440708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7CF872B2983B4DF00440708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CF872E2983B4DF00440708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CF87302983B4DF00440708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CF873B2983B90800440708 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		D7CF873D2983C0D300440708 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		D7CF873A2983B82B00440708 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D7CF87262983B4DC00440708 /* ViewController.swift */,
+				D7CF873D2983C0D300440708 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7CF87272983B4DC00440708 /* ViewController.swift in Sources */,
+				D7CF873E2983C0D300440708 /* ViewController.swift in Sources */,
 				D7CF87232983B4DC00440708 /* AppDelegate.swift in Sources */,
 				D7CF87252983B4DC00440708 /* SceneDelegate.swift in Sources */,
 			);
